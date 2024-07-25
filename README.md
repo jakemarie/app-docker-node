@@ -1,11 +1,11 @@
 ## Construir a imagem Docker
 
-* docker build -t meu-app-node .
+* docker build -t app-docker-node .
 
 
 ## Executar o Container
 
-* docker run -p 3000:3000 meu-app-node
+* docker run -d -p 3000:3000 meu-app-node
 
 
 ## Acessar a aplicação
